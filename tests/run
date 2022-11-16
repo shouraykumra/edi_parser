@@ -1,0 +1,11 @@
+import json
+import os
+import unittest
+from pathlib import Path
+
+from test_script import TestParser
+
+from edi_parser import Parser
+
+test = TestParser(unittest.TestCase)
+test.test_convert_edi_format_to_dict()

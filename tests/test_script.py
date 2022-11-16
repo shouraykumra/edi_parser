@@ -1,8 +1,9 @@
 import json
 import os
 import unittest
-from edi_parser import Parser
 from pathlib import Path
+
+from edi_parser import Parser
 
 
 class TestParser(unittest.TestCase):
@@ -26,4 +27,7 @@ class TestParser(unittest.TestCase):
         self.parser.parse_document(self.file_input)
         file_name = self.parser.save_to_json()
         self.assertTrue(Path(file_name).exists())
+        print(file_name)
 
+if __name__ == '__main__':
+    unittest.main()

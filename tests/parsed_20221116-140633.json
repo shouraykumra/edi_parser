@@ -1,0 +1,673 @@
+{
+    "Parsed data": [
+        {
+            "segment": "ISA",
+            "description": "Interchange Control Header",
+            "data_elements": [
+                "00",
+                "          ",
+                "00",
+                "          ",
+                "ZZ",
+                "133052274      ",
+                "ZZ",
+                "666001001      ",
+                "200710",
+                "1010",
+                "^",
+                "00501",
+                "750010010",
+                "0",
+                "P",
+                ":"
+            ]
+        },
+        {
+            "segment": "GS",
+            "description": "Functional Group Header",
+            "data_elements": [
+                "HC",
+                "133052274",
+                "666001001",
+                "20200710",
+                "1010",
+                "1111",
+                "X",
+                "005010X222A1"
+            ]
+        },
+        {
+            "segment": "ST",
+            "description": "Transaction Set Header",
+            "data_elements": [
+                "837",
+                "000000004",
+                "005010X222A1"
+            ]
+        },
+        {
+            "Body segments": [
+                {
+                    "segment": "BHT",
+                    "description": "No decription",
+                    "data_elements": [
+                        "0019",
+                        "00",
+                        "000010C61",
+                        "20200710",
+                        "1010",
+                        "CH"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "41",
+                        "2",
+                        "Lone Star Medical Solutions",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "46",
+                        "133052274"
+                    ]
+                },
+                {
+                    "segment": "PER",
+                    "description": "No decription",
+                    "data_elements": [
+                        "IC",
+                        "Lone Star Medical Solutions",
+                        "TE",
+                        "8885551212"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "40",
+                        "2",
+                        "Nomi Direct",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "46",
+                        "666001001"
+                    ]
+                },
+                {
+                    "segment": "HL",
+                    "description": "No decription",
+                    "data_elements": [
+                        "1",
+                        "",
+                        "20",
+                        "1"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "85",
+                        "2",
+                        "NOT_USED",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "XX",
+                        "1010101010"
+                    ]
+                },
+                {
+                    "segment": "N3",
+                    "description": "No decription",
+                    "data_elements": [
+                        "NOT_USED"
+                    ]
+                },
+                {
+                    "segment": "N4",
+                    "description": "No decription",
+                    "data_elements": [
+                        "NOT_USED",
+                        "NU",
+                        "10010"
+                    ]
+                },
+                {
+                    "segment": "REF",
+                    "description": "No decription",
+                    "data_elements": [
+                        "EI",
+                        "999999999"
+                    ]
+                },
+                {
+                    "segment": "PER",
+                    "description": "No decription",
+                    "data_elements": [
+                        "IC",
+                        "EDI SUPPORT",
+                        "TE",
+                        "5089999993"
+                    ]
+                },
+                {
+                    "segment": "HL",
+                    "description": "No decription",
+                    "data_elements": [
+                        "2",
+                        "1",
+                        "22",
+                        "0"
+                    ]
+                },
+                {
+                    "segment": "SBR",
+                    "description": "No decription",
+                    "data_elements": [
+                        "P",
+                        "18",
+                        "MIGR-10010",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "CI"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "IL",
+                        "1",
+                        "Rosenberg",
+                        "Janice",
+                        "L",
+                        "",
+                        "",
+                        "MI",
+                        "1000010"
+                    ]
+                },
+                {
+                    "segment": "N3",
+                    "description": "No decription",
+                    "data_elements": [
+                        "2546 Short Street"
+                    ]
+                },
+                {
+                    "segment": "N4",
+                    "description": "No decription",
+                    "data_elements": [
+                        "Austin",
+                        "TX",
+                        "78749"
+                    ]
+                },
+                {
+                    "segment": "DMG",
+                    "description": "No decription",
+                    "data_elements": [
+                        "D8",
+                        "19880222",
+                        "F"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "PR",
+                        "2",
+                        "Nomi Direct",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "PI",
+                        "MIGR-10010"
+                    ]
+                },
+                {
+                    "segment": "CLM",
+                    "description": "No decription",
+                    "data_elements": [
+                        "1234088888",
+                        "105.96",
+                        "",
+                        "",
+                        "11:B:1",
+                        "Y",
+                        "A",
+                        "Y",
+                        "Y"
+                    ]
+                },
+                {
+                    "segment": "REF",
+                    "description": "No decription",
+                    "data_elements": [
+                        "D9",
+                        "012399999999999"
+                    ]
+                },
+                {
+                    "segment": "HI",
+                    "description": "No decription",
+                    "data_elements": [
+                        "BK:2724",
+                        "BF:2449"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "DN",
+                        "1",
+                        "Compton",
+                        "Miguel",
+                        "",
+                        "",
+                        "",
+                        "XX",
+                        "1173101381"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "82",
+                        "1",
+                        "Austin Family Medicine Associates",
+                        "NONE",
+                        "",
+                        "",
+                        "",
+                        "XX",
+                        "1558444216"
+                    ]
+                },
+                {
+                    "segment": "PRV",
+                    "description": "No decription",
+                    "data_elements": [
+                        "PE",
+                        "PXC",
+                        "174400000X"
+                    ]
+                },
+                {
+                    "segment": "LX",
+                    "description": "No decription",
+                    "data_elements": [
+                        "1"
+                    ]
+                },
+                {
+                    "segment": "SV1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "HC:99213",
+                        "105.96",
+                        "UN",
+                        "1",
+                        "",
+                        "",
+                        "1:2"
+                    ]
+                },
+                {
+                    "segment": "DTP",
+                    "description": "No decription",
+                    "data_elements": [
+                        "472",
+                        "RD8",
+                        "20200703-20200703"
+                    ]
+                },
+                {
+                    "segment": "REF",
+                    "description": "No decription",
+                    "data_elements": [
+                        "6R",
+                        "EP012399999999999-01"
+                    ]
+                },
+                {
+                    "segment": "BHT",
+                    "description": "No decription",
+                    "data_elements": [
+                        "0019",
+                        "00",
+                        "000010C61",
+                        "20200710",
+                        "1010",
+                        "CH"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "41",
+                        "2",
+                        "Lone Star Medical Solutions",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "46",
+                        "133052274"
+                    ]
+                },
+                {
+                    "segment": "PER",
+                    "description": "No decription",
+                    "data_elements": [
+                        "IC",
+                        "Lone Star Medical Solutions",
+                        "TE",
+                        "8885551212"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "40",
+                        "2",
+                        "Nomi Direct",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "46",
+                        "666001001"
+                    ]
+                },
+                {
+                    "segment": "HL",
+                    "description": "No decription",
+                    "data_elements": [
+                        "1",
+                        "",
+                        "20",
+                        "1"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "85",
+                        "2",
+                        "NOT_USED",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "XX",
+                        "1010101010"
+                    ]
+                },
+                {
+                    "segment": "N3",
+                    "description": "No decription",
+                    "data_elements": [
+                        "NOT_USED"
+                    ]
+                },
+                {
+                    "segment": "N4",
+                    "description": "No decription",
+                    "data_elements": [
+                        "NOT_USED",
+                        "NU",
+                        "10010"
+                    ]
+                },
+                {
+                    "segment": "REF",
+                    "description": "No decription",
+                    "data_elements": [
+                        "EI",
+                        "999999999"
+                    ]
+                },
+                {
+                    "segment": "PER",
+                    "description": "No decription",
+                    "data_elements": [
+                        "IC",
+                        "EDI SUPPORT",
+                        "TE",
+                        "5089999993"
+                    ]
+                },
+                {
+                    "segment": "HL",
+                    "description": "No decription",
+                    "data_elements": [
+                        "2",
+                        "1",
+                        "22",
+                        "0"
+                    ]
+                },
+                {
+                    "segment": "SBR",
+                    "description": "No decription",
+                    "data_elements": [
+                        "P",
+                        "18",
+                        "MIGR-10010",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "CI"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "IL",
+                        "1",
+                        "Rosenberg",
+                        "Janice",
+                        "L",
+                        "",
+                        "",
+                        "MI",
+                        "1000010"
+                    ]
+                },
+                {
+                    "segment": "N3",
+                    "description": "No decription",
+                    "data_elements": [
+                        "2546 Short Street"
+                    ]
+                },
+                {
+                    "segment": "N4",
+                    "description": "No decription",
+                    "data_elements": [
+                        "Austin",
+                        "TX",
+                        "78749"
+                    ]
+                },
+                {
+                    "segment": "DMG",
+                    "description": "No decription",
+                    "data_elements": [
+                        "D8",
+                        "19880222",
+                        "F"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "PR",
+                        "2",
+                        "Nomi Direct",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "PI",
+                        "MIGR-10010"
+                    ]
+                },
+                {
+                    "segment": "CLM",
+                    "description": "No decription",
+                    "data_elements": [
+                        "1234088888",
+                        "105.96",
+                        "",
+                        "",
+                        "11:B:1",
+                        "Y",
+                        "A",
+                        "Y",
+                        "Y"
+                    ]
+                },
+                {
+                    "segment": "REF",
+                    "description": "No decription",
+                    "data_elements": [
+                        "D9",
+                        "012399999999999"
+                    ]
+                },
+                {
+                    "segment": "HI",
+                    "description": "No decription",
+                    "data_elements": [
+                        "BK:2724",
+                        "BF:2449"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "DN",
+                        "1",
+                        "Compton",
+                        "Miguel",
+                        "",
+                        "",
+                        "",
+                        "XX",
+                        "1173101381"
+                    ]
+                },
+                {
+                    "segment": "NM1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "82",
+                        "1",
+                        "Austin Family Medicine Associates",
+                        "NONE",
+                        "",
+                        "",
+                        "",
+                        "XX",
+                        "1558444216"
+                    ]
+                },
+                {
+                    "segment": "PRV",
+                    "description": "No decription",
+                    "data_elements": [
+                        "PE",
+                        "PXC",
+                        "174400000X"
+                    ]
+                },
+                {
+                    "segment": "LX",
+                    "description": "No decription",
+                    "data_elements": [
+                        "1"
+                    ]
+                },
+                {
+                    "segment": "SV1",
+                    "description": "No decription",
+                    "data_elements": [
+                        "HC:99213",
+                        "105.96",
+                        "UN",
+                        "1",
+                        "",
+                        "",
+                        "1:2"
+                    ]
+                },
+                {
+                    "segment": "DTP",
+                    "description": "No decription",
+                    "data_elements": [
+                        "472",
+                        "RD8",
+                        "20200703-20200703"
+                    ]
+                },
+                {
+                    "segment": "REF",
+                    "description": "No decription",
+                    "data_elements": [
+                        "6R",
+                        "EP012399999999999-01"
+                    ]
+                }
+            ]
+        },
+        {
+            "segment": "SE",
+            "description": "Transaction Set Trailer",
+            "data_elements": [
+                "29",
+                "000000004"
+            ]
+        },
+        {
+            "segment": "GE",
+            "description": "Functional Group Trailer",
+            "data_elements": [
+                "1",
+                "1111"
+            ]
+        },
+        {
+            "segment": "IEA",
+            "description": "Interchange Control Trailer ",
+            "data_elements": [
+                "1",
+                "750010010"
+            ]
+        }
+    ]
+}
